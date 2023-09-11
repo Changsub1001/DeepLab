@@ -76,17 +76,6 @@ $= -\sum_{x \in X} p(x)log(p(x)) -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(y|x)
 then, H(X,Y,Z) = H(X) + H(Y|X) + H(Z|X,Y)
    
 <img src="https://user-images.githubusercontent.com/100255173/226596981-4a3df660-8fd2-4589-8065-c92249e9ae47.png" width="450px" height="200px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-   
-Mutual Information :   
-measure of the amount of common information(correlation) that one variable contains about the other random variable   
-For (X,Y) ~ p(x,y), the mutual information I(X;Y) is   
-$I(X;Y) = \sum_{x \in X} \sum_{y \in Y} p(x,y)log(\frac{p(x,y)}{p(x)p(y)}) = \sum_{x \in X} \sum_{y \in Y} p(x,y)log(\frac{p(x|y)}{p(x)})$   
-$= -\sum_{x \in X} \sum_{y \in Y} p(x,y)p(x) + \sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x|y))$   
-= H(X) - H(X|Y) = H(Y) - H(Y|X)   
-   
-<img src="https://user-images.githubusercontent.com/100255173/226598823-37bfb92a-a7d3-4443-b6fb-1a8874860e5d.png" width="300px" height="200px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-   
-
 
 
 
